@@ -2,6 +2,8 @@
 import React from 'react';
 import Image from 'next/image';
 import Navbar from '@/components/Navbar';
+import Footer from '@/components/Footer';
+
 
 const team = [
   {
@@ -149,6 +151,8 @@ export default function StudioPage() {
         <div className="absolute top-0 bottom-8 right-0 w-16 sm:w-[15vw] bg-gradient-to-l from-sky-50 via-sky-50/80 to-transparent z-30 pointer-events-none"></div>
 
       </div>
+      <Footer />
     </main>
+
   );
 }
